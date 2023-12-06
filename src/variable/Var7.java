@@ -2,10 +2,10 @@ package variable;
 
 public class Var7 {
     public static void main(String[] args) {
-        int a = 100; //정수 리터럴
-        double b = 10.5; //실수 리터럴
-        boolean c = true; //불리언 리터럴 (true/false)
-        char d = 'A'; //캐릭터 리터럴, 문자 하나 ('')
+        int a = 100; //정수 리터럴 4byte
+        double b = 10.5; //실수 리터럴 8byte
+        boolean c = true; //불리언 리터럴 1byte (true/false)
+        char d = 'A'; //캐릭터 리터럴, 문자 하나 1byte  ('')
         String e = "Hello Java"; //문자열 리터럴 ("")
 
         //개발자가 직접 입력한 고정 값을 리터럴이라고 함
