@@ -6,7 +6,7 @@ public class Casting1 {
         long longValue;
         double doubleValue;
 
-        //자동 형변환
+        //자동 형변환(묵시적 형변환)
         longValue = intValue; //int -> long
         System.out.println("longValue = " + longValue);
 
